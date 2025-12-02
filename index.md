@@ -3,7 +3,7 @@
 ### Primary Indicators
 
 1.  Cold Cloud Tops
-          - Very dark gray to black signatures in [Band 13 imagery](https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G19&band=13&length=48&dim=1)
+          - Very dark gray to black signatures in [Band 13 imagery](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G19&sector=ne&band=13&length=12&dim=1)
   - Indicates extremely cold cloud tops typical of snow-producing clouds
   - Usually appears darker than surrounding clouds
   - Often forms distinctive comma-shaped or linear patterns
