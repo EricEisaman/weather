@@ -34,34 +34,7 @@
 
 
 
-```mermaid
-flowchart LR
-    Start["Band 13 Image"] --> Primary{"Primary Indicators Present?"}
-    
-    Primary -->|"Yes"| ColdCloud{"Cold Cloud Tops?"}
-    Primary -->|"No"| Secondary{"Secondary Signs?"}
-    
-    ColdCloud -->|"Yes"| TempGrad{"Temperature Gradients?"}
-    ColdCloud -->|"No"| Secondary
-    
-    TempGrad -->|"Yes"| SnowLikely["High Probability of Snowfall"]
-    TempGrad -->|"No"| Secondary
-    
-    Secondary -->|"Yes"| Context{"Regional Context Matches?"}
-    Secondary -->|"No"| LowProb["Low Probability"]
-    
-    Context -->|"Yes"| SnowLikely
-    Context -->|"No"| LowProb
-    
-    style Start fill:#f9f,stroke:#333,color:#000
-    style Primary fill:#bbf,stroke:#333,color:#000
-    style ColdCloud fill:#bbf,stroke:#333,color:#000
-    style TempGrad fill:#bbf,stroke:#333,color:#000
-    style Secondary fill:#bbf,stroke:#333,color:#000
-    style Context fill:#bbf,stroke:#333,color:#000
-    style SnowLikely fill:#dfd,stroke:#333,color:#000
-    style LowProb fill:#fdd,stroke:#333,color:#000
-```
+<img src="https://raw.githubusercontent.com/EricEisaman/weather/main/resources/decision-chart.svg" width="720px">
 
 ### Using the Decision Tree
 
